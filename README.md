@@ -9,6 +9,14 @@ to more accurately determine the sentiment of words within sentences based on th
 that can be identified within their proper POS tag are used, therefore if a word is used and tagged as a verb, if it has no
 sentiment value when used as a verb within SentiWordNet, it won't be evaluated.
 
+Changes to SentiWordNet
+-------------------
+
+In standard form, SentiWordNet has synonyms grouped together with one sentiment value for a group of words. That makes lookup
+of individual words slightly more difficult especially when taking into account POS. To fix this for this module, SentiWordNet was changed to different lists of words based on their pos (verb, noun, adverb, etc.). These lists were then
+ordered alphabetically with one object per word (instead of one object and sentiment value for many words as is standard for
+SentiWordNet). These changes don't alter the sentiment values for each word within SentiWordNet whatsoever.
+
 Installation
 ------------
 
@@ -147,4 +155,6 @@ ex = { sentiment: 0.25,
 }
 **/
 ```
+
+
 
