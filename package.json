@@ -1,0 +1,27 @@
+{
+  "name": "danielmurdoch",
+  "version": "0.0.1",
+  "description": "SentiWordNet based sentiment analysis for node.js focusing on accuracy and POS analysis.",
+  "main": "./lib/index.js",
+  "dependencies": {
+     "pos": "^0.1.7"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielMurdoch/SentiWord.git"
+  },
+  "keywords": [
+    "sentiment",
+    "analysis",
+    "SentiWordNet"
+  ],
+  "author": "Daniel Murdoch",
+  "license": "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+  "bugs": {
+    "url": "https://github.com/DanielMurdoch/SentiWord/issues"
+  },
+  "homepage": "https://github.com/DanielMurdoch/SentiWord"
+}
