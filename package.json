@@ -1,5 +1,5 @@
 {
-  "name": "danielmurdoch",
+  "name": "sentiword",
   "version": "0.0.1",
   "description": "SentiWordNet based sentiment analysis for node.js focusing on accuracy and POS analysis.",
   "main": "./lib/index.js",
